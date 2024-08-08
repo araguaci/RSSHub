@@ -78,11 +78,11 @@
   "/0x80/blog": [
     "xnum"
   ],
-  "/141jav/{.*}?": [
+  "/141jav/:type/:keyword{.*}?": [
     "cgkings",
     "nczitzk"
   ],
-  "/141ppv/{.*}?": [
+  "/141ppv/:type/:keyword{.*}?": [
     "cgkings",
     "nczitzk"
   ],
@@ -186,6 +186,9 @@
   ],
   "/51cto/index/recommend": [
     "cnkmmk"
+  ],
+  "/51read/article/:id": [
+    "lazwa34"
   ],
   "/52hrtt/:area?/:type?": [
     "nczitzk"
@@ -380,7 +383,9 @@
   "/aliyun/developer/group/:type": [
     "umm233"
   ],
-  "/aljazeera*": [],
+  "/aljazeera*": [
+    "nczitzk"
+  ],
   "/ally/rail/:category?/:topic?": [
     "Rongronggg9"
   ],
@@ -2338,6 +2343,9 @@
   "/google/news/:category/:locale": [
     "zoenglinghou"
   ],
+  "/google/research": [
+    "Levix"
+  ],
   "/google/scholar/:query": [
     "HenryQW"
   ],
@@ -3418,6 +3426,9 @@
   "/juejin/column/:id": [
     "xiangzy1"
   ],
+  "/juejin/dynamic/:id": [
+    "CaoMeiYouRen"
+  ],
   "/juejin/collections/:userId": [
     "isQ"
   ],
@@ -3502,6 +3513,9 @@
   ],
   "/kunchengblog/essay": [
     "nczitzk"
+  ],
+  "/kurogames/wutheringwaves/news": [
+    "enpitsulin"
   ],
   "/kuwaitlocal/:category?": [
     "TonyRL"
@@ -3758,6 +3772,9 @@
   ],
   "/mckinsey/cn/:category?": [
     "laampui"
+  ],
+  "/mcmod/:type": [
+    "hualiong"
   ],
   "/mdpi/:journal": [
     "Derekmini"
@@ -4659,7 +4676,7 @@
   "/pixiv/ranking/:mode/:date?": [
     "EYHN"
   ],
-  "/pixiv/search/:keyword/:order?/:mode?": [
+  "/pixiv/search/:keyword/:order?/:mode?/:include_ai?": [
     "DIYgod"
   ],
   "/pixiv/user/:id": [
@@ -5335,6 +5352,9 @@
   "/showstart/search/:type/:keyword?": [
     "lchtao26"
   ],
+  "/showstart/site/:siteId": [
+    "lchtao26"
+  ],
   "/shu/:type?": [
     "lonelyion"
   ],
@@ -5821,6 +5841,9 @@
   "/tgbus/list/:category": [
     "Xzonn"
   ],
+  "/the/:filter{.+}?": [
+    "nczitzk"
+  ],
   "/theatlantic/:category": [
     "EthanWng97"
   ],
@@ -6037,7 +6060,8 @@
     "hoilc"
   ],
   "/twitter/home/:routeParams?": [
-    "DIYgod"
+    "DIYgod",
+    "CaoMeiYouRen"
   ],
   "/twitter/keyword/:keyword/:routeParams?": [
     "DIYgod",
@@ -6066,7 +6090,8 @@
   "/twitter/user/:id/:routeParams?": [
     "DIYgod",
     "yindaheng98",
-    "Rongronggg9"
+    "Rongronggg9",
+    "CaoMeiYouRen"
   ],
   "/twreporter/category/:category": [
     "emdoe"
